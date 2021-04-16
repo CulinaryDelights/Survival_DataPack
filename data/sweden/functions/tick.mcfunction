@@ -16,7 +16,3 @@ scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:cooked_beef",tag:{bur
 execute as @a[scores={burger_delay=1..,beef_eat=1}] at @s run effect give @s regeneration 6 2
 scoreboard players reset @a[scores={beef_eat=1..}] beef_eat
 execute as @a[scores={burger_delay=1..}] unless entity @s[nbt={SelectedItem:{id:"minecraft:cooked_beef",tag:{burger:1b}}}] run scoreboard players remove @s burger_delay 2
-
-#LUCKY BLOCK
-execute as @e[type=item_frame,tag=luckyblock,tag=!placed] at @s run function sweden:lucky_block/place 
-execute as @e[type=item_frame,tag=luckyblock,tag=placed] at @s unless block ~ ~ ~ glass run function sweden:lucky_block/remove
