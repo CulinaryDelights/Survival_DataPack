@@ -1,0 +1,1 @@
+execute at @p as @p if block ~ ~-1 ~ grass_block run effect give @p jump_boost 1 100

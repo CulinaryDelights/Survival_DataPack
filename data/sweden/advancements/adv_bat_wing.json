@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sweden:bat_wing"
+            }
+        }
+    },
+    "rewards": {
+        "function": "sweden:bat_wing_give"
+    }
+}
