@@ -11,3 +11,7 @@ give @a cooked_porkchop{cheese:1b,CustomModelData:2,display:{Name:'{"text":"Chee
 scoreboard objectives add beef_eat minecraft.used:minecraft.cooked_beef
 scoreboard objectives add burger_delay dummy
 give @a cooked_beef{burger:1b,CustomModelData:4,display:{Name:'{"text":"Hamburger","italic":false}'}}
+
+scoreboard objectives add porkchop_eat minecraft.used:minecraft.cooked_porkchop
+scoreboard objectives add hot_dog_delay dummy
+give @a cooked_porkchop{hot_dog:1b,CustomModelData:11,display:{Name:'{"text":"Hot Dog","italic":false}'}}

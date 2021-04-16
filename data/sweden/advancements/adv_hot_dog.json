@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sweden:hot_dog"
+            }
+        }
+    },
+    "rewards": {
+        "function": "sweden:hot_dog_give"
+    }
+}
