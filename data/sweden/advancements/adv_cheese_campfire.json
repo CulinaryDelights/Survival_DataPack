@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sweden:cheese_campfire"
+            }
+        }
+    },
+    "rewards": {
+        "function": "sweden:cheese_give_campfire"
+    }
+}

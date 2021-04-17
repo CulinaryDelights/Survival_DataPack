@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:knowledge_book",
+                    "name": "minecraft:heart_of_the_sea",
                     "functions": [
                         {
                             "function": "set_nbt",
